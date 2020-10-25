@@ -1,5 +1,6 @@
 import React from "react"
 import Layout from "../components/layout"
+
 export default function Home() {
   return(
 
@@ -12,7 +13,7 @@ export default function Home() {
       <link href="http://fonts.googleapis.com/css?family=Oswald:700|Droid+Serif:400,700italic" rel="stylesheet" type="text/css" />
     </head>
     <body>
-      <h2>Consulting</h2>
+      <h2>Interiors</h2>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh sed pulvinar proin gravida hendrerit. Egestas tellus rutrum tellus pellentesque eu tincidunt tortor. Augue mauris augue neque gravida in fermentum et. Nunc lobortis mattis aliquam faucibus purus in massa. Id faucibus nisl tincidunt eget nullam non. Eleifend donec pretium vulputate sapien nec sagittis. Felis eget velit aliquet sagittis id consectetur purus ut. Phasellus egestas tellus rutrum tellus pellentesque eu tincidunt. Auctor eu augue ut lectus arcu. Urna porttitor rhoncus dolor purus. Dignissim suspendisse in est ante in.
 

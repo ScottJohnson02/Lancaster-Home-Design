@@ -1,0 +1,157 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+/* Fonts */
+h1 {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    }
+
+h2 {
+    font-family: 'Droid Serif', serif;
+    font-style: italic;
+    }
+p {
+    font-family: 'Droid Serif', serif;
+    }
+/*Nav Bar */
+ul {
+  list-style-type: none;
+  margin: 0;
+  margin-bottom: 1rem;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111111;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+button a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  padding-top: .21rem;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #111111;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+/* Drop-down arrow */
+
+.arrow {
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 2px;
+  margin-left: .5rem;
+}
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+
+/* Flex-box for home page */
+.services {
+  display: flex;
+  padding-top: 1rem;
+
+}
+.service{
+  width: 33%;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  background: grey;
+  border: 1rem solid;
+  justify-content: center;
+}
+
+.service h2{
+  text-align: center;
+}
+.service img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.service p{
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+h2 {
+  text-align: center;
+}
