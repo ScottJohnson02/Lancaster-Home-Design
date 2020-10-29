@@ -29,7 +29,7 @@ export default function Home({ data }) {
           </p>
         </div>
         <div class="service">
-          <h2>Consulting</h2>
+          <h2>Exteriors </h2>
           <img src="https://source.unsplash.com/random/250x250" alt="" />
           <p>    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
             Nibh sed pulvinar proin gravida hendrerit. Egestas tellus rutrum tellus pellentesque eu tincidunt tortor. Augue mauris augue neque gravida
@@ -39,7 +39,7 @@ export default function Home({ data }) {
           </p>
         </div>
         <div class="service">
-          <h2>Exteriors</h2>
+          <h2>Consulting</h2>
           <img src="https://source.unsplash.com/random/250x250" alt="" />
           <p>    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
             Nibh sed pulvinar proin gravida hendrerit. Egestas tellus rutrum tellus pellentesque eu tincidunt tortor. Augue mauris augue neque gravida
@@ -62,14 +62,3 @@ export default function Home({ data }) {
 </div>
   )
 }
-
-
-export const query = graphql`
-  query {
-    site {
-      siteMetadata {
-        title
-      }
-    }
-  }
-`

@@ -9,4 +9,15 @@ module.exports = {
     title: "Lancaster Home Design",
     description: " ",
   },
+  plugins: [
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        path: "./data/",
+      },
+    },
+    "gatsby-transformer-json",
+    "gatsby-transformer-sharp",
+    "gatsby-plugin-sharp",
+  ],
 }

@@ -17,7 +17,7 @@ export default function Layout({ children }) {
           <h1>Lancaster Home Design </h1>
         </Link>
 
-        <ul>
+        <ul class="nav-ul">
           <ListLink to="/">Home</ListLink>
           <div class="dropdown">
             <button class="dropbtn">
@@ -25,9 +25,9 @@ export default function Layout({ children }) {
             <i class="arrow down"></i>
             </button>
             <div class="dropdown-content">
-              <a href="#">Bathrooms</a>
-              <a href="#">Kitchens</a>
-              <a href="#">Full Remodel</a>
+              <a href="/bathrooms">Bathrooms</a>
+              <a href="/kitchens">Kitchens</a>
+              <a href="remodel">Full Remodel</a>
             </div>`
           </div>
           <div class="dropdown">
@@ -36,10 +36,10 @@ export default function Layout({ children }) {
             <i class="arrow down"></i>
             </button>
             <div class="dropdown-content">
-              <a href="#">Siding</a>
-              <a href="#">Decks & Porches</a>
-              <a href="#">Windows & Doors</a>
-              <a href="#">Roofing</a>
+              <a href="/siding">Siding</a>
+              <a href="/decks">Decks & Porches</a>
+              <a href="/windows">Windows & Doors</a>
+              <a href="/roofing">Roofing</a>
             </div>`
           </div>
           <div class="dropdown">
@@ -48,10 +48,10 @@ export default function Layout({ children }) {
             <i class="arrow down"></i>
             </button>
             <div class="dropdown-content">
-              <a href="#">Design & Build</a>
-              <a href="#">Supply & Install</a>
-              <a href="#">Project Management</a>
-              <a href="#">Engineering Services</a>
+              <a href="/design">Design & Build</a>
+              <a href="/supply">Supply & Install</a>
+              <a href="/management">Project Management</a>
+              <a href="/engineering">Engineering Services</a>
             </div>`
           </div>
 
