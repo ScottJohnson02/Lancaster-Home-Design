@@ -2,18 +2,29 @@
   "title": "Decks & Porches",
   "content": [
     {
-      "title": "Project 1",
+      "title": "Hendrix Deck",
       "description": "Beep boop loop",
       "gallery":[
+        "/images/hendrixctdeck/61722007933__C38ECF94-02C6-4432-8111-483710D3E5FF.JPG",
+        "/images/hendrixctdeck/IMG_2256.JPG",
+        "/images/hendrixctdeck/IMG_2259.JPG",
+        "/images/hendrixctdeck/IMG_2260.JPG",
+        "/images/hendrixctdeck/IMG_2261.JPG",
+        "/images/hendrixctdeck/IMG_2381.JPG",
+        "/images/hendrixctdeck/IMG_2383.JPG"
 
 
 
       ]
     },
     {
-      "title": "Project 2",
+      "title": "Mt Felix Deck",
       "description": "Beep boop loop",
       "gallery":[
+        "/images/mtfelixdeck/IMG_1843.jpg",
+        "/images/mtfelixdeck/IMG_1844.jpg",
+        "/images/mtfelixdeck/IMG_1854.jpg",
+        "/images/mtfelixdeck/IMG_1856.jpg"
 
 
 
@@ -29,7 +40,7 @@
 
 
 
-          
+
 
       ]
     },

@@ -2,12 +2,19 @@
   "title": "Kitchens",
   "content": [
     {
-      "title": "Project 1",
+      "title": "Mount Rocky Kitchen",
       "description": "Beep boop loop",
       "gallery":[
+        "/images/mountrockykitchen/IMG_1903.jpg",
+        "/images/mountrockykitchen/IMG_1904.jpg",
+        "/images/mountrockykitchen/IMG_1905.jpg",
+        "/images/mountrockykitchen/IMG_2588.jpg",
+        "/images/mountrockykitchen/IMG_2589.jpg",
+        "/images/mountrockykitchen/IMG_2590.jpg",
+        "/images/mountrockykitchen/IMG_2591.jpg"
 
-          
-          
+
+
 
       ]
     },
@@ -16,8 +23,8 @@
       "description": "Beep boop loop",
       "gallery":[
 
-          
-          
+
+
 
       ]
     },
@@ -26,11 +33,11 @@
       "description":"efjbhevwbhjv ejkhes esjhv",
       "gallery":[
 
-          
-          
-          
-          
-          
+
+
+
+
+
 
       ]
     },
@@ -39,8 +46,8 @@
       "description":"ddbjecke",
       "gallery":[
 
-          
-          
+
+
 
       ]
 

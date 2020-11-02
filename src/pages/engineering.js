@@ -10,7 +10,6 @@ const JSONbuildtime = () => (
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link href="http://fonts.googleapis.com/css?family=Oswald:700|Droid+Serif:400,700italic" rel="stylesheet" type="text/css" />
   </head>
-  <body>
   <h1>{JSONData.title}</h1>
   <div class="projects">
     {JSONData.content.map((data, index) => {
@@ -18,6 +17,7 @@ const JSONbuildtime = () => (
 
       <div class="project">
         <h2>{data.title}</h2>
+        <div class ="photos">
         {data.gallery.map(image => {
                 return (
                   <img
@@ -27,6 +27,7 @@ const JSONbuildtime = () => (
                   />
                 )
             })}
+        </div>
         <p>{data.description}</p>
 
 
@@ -36,7 +37,6 @@ const JSONbuildtime = () => (
     })}
   </div>
 
-</body>
 </Layout>
 </div>
 )

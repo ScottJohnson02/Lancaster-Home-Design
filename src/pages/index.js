@@ -14,9 +14,12 @@ export default function Home({ data }) {
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <link href="http://fonts.googleapis.com/css?family=Oswald:700|Droid+Serif:400,700italic" rel="stylesheet" type="text/css" />
     </head>
+      <div class="banner">
+        <img  src="/images/banner/shadow.jpg" alt="banner "/>
+        <h2>Lancaster Home Design</h2>
+        <h3>Making your house your home</h3>
+      </div>
 
-    <body>
-    <img src="https://source.unsplash.com/random/800x500" alt="" />
       <div class="services">
         <div class="service">
           <h2>Interiors</h2>
@@ -57,7 +60,6 @@ export default function Home({ data }) {
 
         Neque convallis a cras semper. In hac habitasse platea dictumst vestibulum. Morbi enim nunc faucibus a pellentesque. Vitae sapien pellentesque habitant morbi tristique. Tincidunt id aliquet risus feugiat. Orci eu lobortis elementum nibh tellus molestie nunc non. Diam volutpat commodo sed egestas egestas fringilla phasellus faucibus scelerisque. Facilisi cras fermentum odio eu feugiat pretium. Bibendum enim facilisis gravida neque convallis a. Convallis a cras semper auctor neque vitae tempus. Faucibus interdum posuere lorem ipsum.
       </p>
-      </body>
   </Layout>
 </div>
   )

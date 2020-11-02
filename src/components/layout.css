@@ -7,65 +7,95 @@
 h1 {
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
+    color: white;
+    margin-left: 1rem;
     }
 
 h2 {
     font-family: 'Droid Serif', serif;
     font-style: italic;
+    color: white;
     }
 p {
     font-family: 'Droid Serif', serif;
+    color: white;
     }
+
+body{
+
+  background-color: #819ba9
+;
+}
 /*Nav Bar */
-.nav-ul {
-  list-style-type: none;
+body {
   margin: 0;
-  margin-bottom: 1rem;
   padding: 0;
-  overflow: hidden;
-  background-color: #333333;
 }
 
-li {
+.logo {
   float: left;
 }
+/* ~~ Top Navigation Bar ~~ */
 
-li a {
-  display: block;
-  color: white;
+#navigation-container {
+  width: 1200px;
+  margin: 0 auto;
+  height: 100px;
+}
+
+.navigation-bar {
+  background-color: #394856;
+  height: 120px;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.navigation-bar img{
+float:left;
+}
+.navigation-bar ul {
+  padding: 0px;
+  margin: 0px;
   text-align: center;
-  padding: 16px;
-  text-decoration: none;
+  display:inline-block;
+
 }
 
-li a:hover {
-  background-color: #111111;
+.navigation-bar li {
+  list-style-type: none;
+  padding: 0px;
+  height: 24px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  display: inline;
 }
 
-.navbar {
-  overflow: hidden;
-  background-color: #333;
-}
-
-.navbar a {
-  float: left;
+.navigation-bar li a {
+  color: white;
   font-size: 16px;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
   text-decoration: none;
+  line-height: 150px;
+  padding: 5px 15px;
+  opacity: 0.7;
+}
+
+#menu {
+  float: right;
+}
+button{
+  padding: 0PX;
 }
 button a {
-  float: left;
-  font-size: 16px;
   color: white;
-  text-align: center;
+  font-size: 1rem;
   text-decoration: none;
-  padding-top: .21rem;
+  line-height: 70px;
+  opacity: 0.7;
+  padding: 10px;
 }
 
 .dropdown {
-  float: left;
+  float: right;
   overflow: hidden;
 }
 
@@ -74,20 +104,23 @@ button a {
   border: none;
   outline: none;
   color: white;
-  padding: 14px 16px;
+  padding-right: 1rem;
   background-color: inherit;
   font-family: inherit;
-  margin: 0;
+  line-height: 110px;
+
 }
 
 .navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: #111111;
+  opacity: 0.5;
+  text-decoration: underline;
 }
 
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #f9f9f9;
+  top: 80px;
+  background-color: #897f82;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
@@ -103,11 +136,16 @@ button a {
 }
 
 .dropdown-content a:hover {
-  background-color: #ddd;
+  opacity: 0.5;
 }
 
 .dropdown:hover .dropdown-content {
   display: block;
+}
+
+.nav-ul :last-child button{
+  padding-left: 1rem;
+
 }
 /* Drop-down arrow */
 
@@ -116,13 +154,44 @@ button a {
   border-width: 0 3px 3px 0;
   display: inline-block;
   padding: 2px;
-  margin-left: .5rem;
+  opacity: 0.7;
 }
 .down {
   transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
 }
+/*index banner */
+.banner{
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.banner h2{
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3rem;
+  text-shadow: 2px -2px black;
 
+}
+.banner h3{
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2rem;
+  text-shadow: 2px -2px black;
+}
+.banner img{
+  object-fit: cover;
+  width: 100%;
+  height: 500px;
+
+  padding-top: none;
+  margin-top: none;
+  opacity: .7;
+}
 
 /* Flex-box for home page */
 .services {
@@ -134,8 +203,9 @@ button a {
 .service{
   flex: 1 1 400px;
   margin: 1rem;
-  background: grey;
+  background: #636E72;
   border: 1rem solid;
+  border-color: #2D3436;
   justify-content: center;
 
 }
@@ -155,4 +225,24 @@ button a {
 
 h2 {
   text-align: center;
+
+}
+
+
+
+
+/*image gallery */
+
+.photos {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.photos img {
+  /* Just in case there are inline attributes */
+  object-fit: cover;
+  width: 500px;
+  height: 500px;
+  padding: 1rem;
 }

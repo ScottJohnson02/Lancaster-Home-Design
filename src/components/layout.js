@@ -13,50 +13,72 @@ export default function Layout({ children }) {
 
   return <div>
   <header style={{ marginBottom: `1.5rem` }}>
-        <Link to="/">
-          <h1>Lancaster Home Design </h1>
-        </Link>
 
-        <ul class="nav-ul">
-          <ListLink to="/">Home</ListLink>
-          <div class="dropdown">
-            <button class="dropbtn">
-              <a href="/interior">Interior</a>
-            <i class="arrow down"></i>
-            </button>
-            <div class="dropdown-content">
-              <a href="/bathrooms">Bathrooms</a>
-              <a href="/kitchens">Kitchens</a>
-              <a href="remodel">Full Remodel</a>
-            </div>`
-          </div>
-          <div class="dropdown">
-            <button class="dropbtn">
-              <a href="/exterior">Exterior</a>
-            <i class="arrow down"></i>
-            </button>
-            <div class="dropdown-content">
-              <a href="/siding">Siding</a>
-              <a href="/decks">Decks & Porches</a>
-              <a href="/windows">Windows & Doors</a>
-              <a href="/roofing">Roofing</a>
-            </div>`
-          </div>
-          <div class="dropdown">
-            <button class="dropbtn">
-              <a href="/consulting">Consulting</a>
-            <i class="arrow down"></i>
-            </button>
-            <div class="dropdown-content">
-              <a href="/design">Design & Build</a>
-              <a href="/supply">Supply & Install</a>
-              <a href="/management">Project Management</a>
-              <a href="/engineering">Engineering Services</a>
-            </div>`
+        <div class="navigation-bar">
+          <div id="navigation-container">
+            <img src="/images/logo.png" alt="logo" style={{ width: "400px" }}
+            />
+            <ul class="nav-ul">
+              <div class="dropdown">
+                <button class="dropbtn">
+                  <a href="/contact">Contact Us</a>
+
+                </button>
+
+              </div>
+
+              <div class="dropdown">
+                <button class="dropbtn">
+                  <a href="/consulting">Consulting</a>
+                <i class="arrow down"></i>
+                </button>
+                <div class="dropdown-content">
+                  <a href="/design">Design & Build</a>
+                  <a href="/supply">Supply & Install</a>
+                  <a href="/management">Project Management</a>
+                  <a href="/engineering">Engineering Services</a>
+                </div>
+              </div>
+              <div class="dropdown">
+                <button class="dropbtn">
+                  <a href="/exterior">Exterior</a>
+                <i class="arrow down"></i>
+                </button>
+                <div class="dropdown-content">
+                  <a href="/siding">Siding</a>
+                  <a href="/decks">Decks & Porches</a>
+                  <a href="/windows">Windows & Doors</a>
+                  <a href="/roofing">Roofing</a>
+                </div>
+              </div>
+
+              <div class="dropdown">
+                <button class="dropbtn">
+                  <a href="/interior">Interior</a>
+                <i class="arrow down"></i>
+                </button>
+                <div class="dropdown-content">
+                  <a href="/bathrooms">Bathrooms</a>
+                  <a href="/kitchens">Kitchens</a>
+                  <a href="/remodel">Full Remodel</a>
+                </div>
+              </div>
+
+
+              <div class="dropdown">
+                <button class="dropbtn">
+                  <a href="/">Home</a>
+
+                </button>
+
+              </div>
+
+
+            </ul>
           </div>
 
-          <ListLink to="/contact-us">Contact Us</ListLink>
-        </ul>
+        </div>
+
       </header>
   {children}</div>
 }
