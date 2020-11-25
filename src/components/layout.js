@@ -1,7 +1,6 @@
 
 import React from "react"
 import "./layout.css"
-
 import { Link } from "gatsby"
 const ListLink = props => (
   <li style={{ display: `inline-block`, marginRight: `1rem` }}>
@@ -13,10 +12,9 @@ export default function Layout({ children }) {
 
   return <div>
   <header style={{ marginBottom: `1.5rem` }}>
-
-        <div class="navigation-bar">
+        <div class="navigation-bar" id="myTopnav">
           <div id="navigation-container">
-            <img src="/images/logo.png" alt="logo" style={{ width: "400px" }}
+            <img src="/images/logo.png" alt="logo" style={{  }}
             />
             <ul class="nav-ul">
               <div class="dropdown">
@@ -70,6 +68,10 @@ export default function Layout({ children }) {
                   <a href="/">Home</a>
 
                 </button>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                  <i class="fa fa-bars"></i>
+                </a>
+
 
               </div>
 

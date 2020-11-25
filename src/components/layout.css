@@ -38,7 +38,7 @@ body {
 /* ~~ Top Navigation Bar ~~ */
 
 #navigation-container {
-  width: 1200px;
+  width: 100%;
   margin: 0 auto;
   height: 100px;
 }
@@ -51,7 +51,8 @@ body {
   padding-bottom: 10px;
 }
 .navigation-bar img{
-float:left;
+width: 400px;
+margin-left: 5px;
 }
 .navigation-bar ul {
   padding: 0px;
@@ -191,6 +192,8 @@ button a {
   padding-top: none;
   margin-top: none;
   opacity: .7;
+  object-position: 50% 70%; /* default value: image is centered*/
+  object-position: 0 0; /* positioned top left of the content box */
 }
 
 /* Flex-box for home page */
@@ -228,6 +231,24 @@ h2 {
 
 }
 
+/* service breakdown */
+.breakdown{
+  display: flex;
+  padding-top: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.breakdown .service{
+  width: 400px;
+  flex: none;
+}
+
+/*home paragraph */
+
+.why{
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
 
 
 
@@ -240,9 +261,72 @@ h2 {
 }
 
 .photos img {
-  /* Just in case there are inline attributes */
   object-fit: cover;
   width: 500px;
   height: 500px;
   padding: 1rem;
+}
+
+
+
+
+
+
+/*media queries */
+
+
+@media screen and (max-width: 880px) {
+  .navigation-bar img{
+  margin-bottom: 25px;
+  width: 200px;
+  }
+}
+@media screen and (max-width: 680px) {
+  .navigation-bar img{
+  margin-bottom: 20px;
+  width: 100px;
+  }
+  .navigation-bar {
+    height: 70px;
+  }
+  .navigation-bar {
+    padding-right: 0px;
+  }
+  .arrow{
+    display: none;
+  }
+  button a{
+    padding: 0px;
+  }
+  .dropdown .dropbtn{
+    padding-right: 16px;
+    line-height: 0px;
+
+  }
+  .banner h2{
+    top: 20%;
+  }
+  .banner h3{
+    width: 100%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .navigation-bar img{
+  margin-bottom: 25px;
+  display: none;
+  }
+  .nav-ul :last-child button {
+    padding-left: 2px;
+  }
+  .dropdown .dropbtn {
+    padding-right: 8.5px;
+    line-height: 0px;
+  }
+
+
+}
+@media screen and (max-width: 326px) {
+  button a {
+    font-size: .8rem;
+  }
 }
