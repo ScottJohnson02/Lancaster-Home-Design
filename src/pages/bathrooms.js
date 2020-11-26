@@ -6,10 +6,7 @@ import Layout from "../components/layout"
 const JSONbuildtime = () => (
 <div>
 <Layout>
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link href="http://fonts.googleapis.com/css?family=Oswald:700|Droid+Serif:400,700italic" rel="stylesheet" type="text/css" />
-  </head>
+  
   <h1>{JSONData.title}</h1>
   <div class="projects">
     {JSONData.content.map((data, index) => {

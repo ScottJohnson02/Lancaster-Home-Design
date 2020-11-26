@@ -11,6 +11,13 @@ const ListLink = props => (
 export default function Layout({ children }) {
 
   return <div>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="http://fonts.googleapis.com/css?family=Oswald:700|Droid+Serif:400,700italic" rel="stylesheet" type="text/css" />
+    <title>Lancaster Home Design</title>
+    // TODO: change description
+    <meta name="description" content="Lanxater Home Design "/>
+  </head>
   <header style={{ marginBottom: `1.5rem` }}>
         <div class="navigation-bar" id="myTopnav">
           <div id="navigation-container">

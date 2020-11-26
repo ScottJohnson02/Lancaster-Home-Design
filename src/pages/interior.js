@@ -16,7 +16,7 @@ export default function Home() {
       <h2>Interiors</h2>
       <div class="breakdown">
         <div class="service">
-          <h2>Bathrooms</h2>
+          <h2><a href="/bathrooms">Bathrooms</a></h2>
           <img src="https://source.unsplash.com/random/250x250" alt="" />
           <ul>
             <li>Renovation / Remodel</li>
@@ -27,7 +27,7 @@ export default function Home() {
           </ul>
         </div>
         <div class="service">
-          <h2>Kitchens </h2>
+          <h2><a href="/kitchens">Kitchens</a> </h2>
           <img src="https://source.unsplash.com/random/250x250" alt="" />
           <ul>
             <li> Showers</li>
@@ -37,7 +37,7 @@ export default function Home() {
           </ul>
         </div>
         <div class="service">
-          <h2>Full Remodels</h2>
+          <h2><a href="/remodel">Full Remodels</a></h2>
           <img src="https://source.unsplash.com/random/250x250" alt="" />
           <ul>
             <li> test</li>

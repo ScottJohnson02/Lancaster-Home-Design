@@ -14,7 +14,7 @@ export default function Home() {
       <h2>Exteriors</h2>
       <div class="breakdown">
         <div class="service">
-          <h2>Siding</h2>
+          <h2><a href="/siding">Siding</a></h2>
           <img src="https://source.unsplash.com/random/250x250" alt="" />
           <ul>
             <li> test</li>
@@ -23,7 +23,7 @@ export default function Home() {
           </ul>
         </div>
         <div class="service">
-          <h2>Decks & Porches </h2>
+          <h2><a href="/decks">Decks & Porches</a> </h2>
           <img src="https://source.unsplash.com/random/250x250" alt="" />
           <ul>
             <li> test</li>
@@ -32,7 +32,7 @@ export default function Home() {
           </ul>
         </div>
         <div class="service">
-          <h2>Windows & Doors</h2>
+          <h2><a href="/windows">Windows & Doors</a></h2>
           <img src="https://source.unsplash.com/random/250x250" alt="" />
           <ul>
             <li> test</li>
@@ -41,7 +41,7 @@ export default function Home() {
           </ul>
         </div>
         <div class="service">
-          <h2>Roofing</h2>
+          <h2><a href="/roofing">Roofing</a></h2>
           <img src="https://source.unsplash.com/random/250x250" alt="" />
           <ul>
             <li> test</li>
